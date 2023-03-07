@@ -17,7 +17,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
 import lombok.Data;
 
-@Data
 @MappedSuperclass
 // ecoute la classe et met a jours automatiquements les valeurs de cette classe dans la bd
 @EntityListeners(AuditingEntityListener.class)

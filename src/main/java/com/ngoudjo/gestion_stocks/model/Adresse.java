@@ -10,10 +10,10 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @Data
-@EqualsAndHashCode(callSuper=true)
 @NoArgsConstructor
 @AllArgsConstructor
 @Embeddable
+@Table(name = "adresse" )
 public class Adresse {
 	
 	@Column(name = "adresse1")
